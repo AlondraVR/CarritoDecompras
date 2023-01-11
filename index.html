@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<div>
+				<a href="" class="logo"><img src="./Images/logoNuevo.jpg" alt="logo"></a>
+			</div>
+			<nav class="navegacion">
+				<ul> 
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="./sections/Camisas.html">Camisas</a>
+					</li>
+					<li>
+						<a href="./sections/Sudaderas.html">Sudaderas</a>
+					</li>
+					<li>
+						<a href="./sections/Ofertas.html">Ofertas</a>
+					</li>
+					<li>
+						<a href="./sections/Contacto.html">Contacto</a>
+					</li>
+					<li class="carrito">
+						<a href="">Carrito</a>
+				<ul>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+					src= "images/animeCollectionitadori.jpg" alt="naruto"
+					alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pieza1</h2>
+					<p class="price">$100</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+					src= "images/animeCollectionman.jpg" alt="naruto"
+					alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pieza2</h2>
+					<p class="price">$200</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+					src= "images/animeCollectionit bakugo.jpg" alt="naruto"
+					alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pieza3</h2>
+					<p class="price">$150</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src= "images/animeCollectionman.jpg" alt="naruto"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pieza 4</h2>
+					<p class="price">$190</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+					src= "images/animeCollectionit Naruto Sasuke.jpg" alt="naruto"
+					alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pieza 5</h2>
+					<p class="price">$150</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+					src= "images/narutoColeccion.jpg" alt="naruto"
+					alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pieza 5</h2>
+					<p class="price">$250</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+		<!--footer-->
+		<footer class="layoutFooter">
+			<div class="layoutContainer">
+				<div class="layoutFooter__inner">
+				
+			<div class="layoutFooter__item">
+				<ul class="layoutFooter__pages">
+					<li>
+						<a href="file:///C:/Users/ALONDRA%20VELAZQUEZ/Desktop/coder%20desarrollo%20web/proyectoFinalcoder/sections/Contacto.html" class="letrasFooter">Contacto</a>
+					</li>
+					<li>
+						<a href="https://leeos-merch.storage.googleapis.com/media/original_images/TALLAS_MADKAT_-_Urban_vNDxPUy.png" class="">Tallas</a>
+					</li>
+					<li>
+						<a href="./bonus/cuidados.html" class="letrasFooter">Recomendaciones de cuidado</a>
+					</li>
+					<li>
+						<a href="/es/politica-de-envios/" class="letrasFooter">Política de envíos</a>
+					</li>
+					<li>
+						<a href="/es/condiciones-de-compra/" class="letrasFooter">Condiciones de compra</a>
+					</li>
+					<li>
+						<a href="/es/politica-de-cookies/" class="letrasFooter">Política de cookies</a>
+					</li>
+					<li>
+						<a href="/es/politica-de-privacidad/" class="letrasFooter">Política de privacidad</a>
+					</li>
+					<li>
+						<a href="/es/terminos-de-servicio/" class="letrasFooter">Términos de servicio</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/" class="letrasFooter">Facebook</a>
+					</li> 
+					<li>
+						<a href="https://www.instagram.com/madkatstore/" target="_blank" rel="noopener" class="layoutFooter__item__instagram">
+							<span class="icon">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M11.268 1H4.914A3.918 3.918 0 0 0 1 4.914v6.354a3.918 3.918 0 0 0 3.914 3.914h6.354a3.918 3.918 0 0 0 3.914-3.914V4.914A3.918 3.918 0 0 0 11.268 1Zm2.656 10.268a2.658 2.658 0 0 1-2.655 2.655H4.914a2.658 2.658 0 0 1-2.656-2.655V4.914a2.658 2.658 0 0 1 2.655-2.655h6.354a2.659 2.659 0 0 1 2.656 2.655l.001 6.354ZM8.091 4.377a3.718 3.718 0 0 0-3.714 3.714 3.718 3.718 0 0 0 3.714 3.714 3.718 3.718 0 0 0 3.714-3.714 3.718 3.718 0 0 0-3.714-3.714Zm0 6.149a2.438 2.438 0 0 1-2.435-2.435 2.438 2.438 0 0 1 2.435-2.435 2.438 2.438 0 0 1 2.435 2.435 2.438 2.438 0 0 1-2.435 2.435Zm4.052-7.5c-.269.001-.526.11-.716.3-.19.19-.298.447-.3.716a1.02 1.02 0 0 0 1.016 1.016 1.023 1.023 0 0 0 1.016-1.016 1.017 1.017 0 0 0-.3-.716 1.017 1.017 0 0 0-.716-.3Z">
+							</path></svg></span>
+						</a>
+					</li>
+				</ul>
+				<br>
+				<p class="layoutFooter__item layoutFooter__copyright">©2022. Reservados todos los derechos</p>
+			</div>
+			</div>
+			</div>
+		</footer>
+	</body>
+</html>
